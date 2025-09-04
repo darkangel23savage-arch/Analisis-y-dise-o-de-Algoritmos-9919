@@ -50,7 +50,7 @@ public class PacmanGame extends JPanel implements KeyListener, Runnable {
             if (pacmanY > getHeight() - pacmanSize) pacmanY = getHeight() - pacmanSize;
             repaint();
             try {
-                Thread.sleep(20);
+                Thread.sleep(30);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
